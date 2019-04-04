@@ -47,21 +47,22 @@
 
 
     <!-- <div id="Form1" class="Form"> -->
-    <form action="/api/create" method="POST">
+    <form class="gform" method="POST" data-email="11maguirre.a@gmail.com"
+   >
       <div class="page-header">
         <h1>Contact</h1>
       </div>
 
       <div class="form-group">
-        <label for="InputName">Name</label>
+        <label for="name">Name</label>
         <input name="name" type="text" class="form-control" id="name" placeholder="Enter name">
       </div>
       <div class="form-group">
-        <label for="InputEmail">Email</label>
+        <label for="email">Email</label>
         <input name="email" type="text" class="form-control" id="email" placeholder="Enter email">
       </div>
       <div class="form-group">
-        <label for="InputMessage">Message</label>
+        <label for="message">Message</label>
         <textarea name="message" class="form-control" id="message" placeholder="Enter message" rows="6"></textarea>
       </div>
       <input type="submit" id="ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q">
@@ -69,7 +70,13 @@
   </div>
 
   <footer class="page-footer aria-expanded font-small" id="footer">
-    <div class="footer-copyright text-center" py-3>@2018 Copyright</div>
+    <div class="footer-copyright text-center" py-3>@2019 Copyright
+        <div text-center>
+            <a href="https://github.com/mgranados2018"><i class="fab fa-github" id="social"></i></a>
+            <a href="https://www.linkedin.com/in/marisol-granados-48b019177"><i class="fab fa-linkedin" id="social"></i></a>
+            <a href="contact.html"><i class="fas fa-envelope-square" id="social"></i></a>
+        </div>  
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
