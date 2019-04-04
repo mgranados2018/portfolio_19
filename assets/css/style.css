@@ -151,7 +151,7 @@ footer{
     padding: 20px 0;
     width: 100%;
     background-color: rgb(40, 43, 51);
-    /* position: fixed */
+    overflow: auto
 
 }
 
