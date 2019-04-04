@@ -15,87 +15,86 @@
 
 <body>
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="card bg-dark text-white text-center">
-            <img class="card-img" src="./assets/images/main 2.jpg" alt="Card image cap">
-            <div class="card-image overlay img1">
-                <a href="index.html" class="card-link">Marisol Granados</a>
-            </div>
-        </div>
-        <br>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+    <div>
+
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="card bg-dark text-white text-center">
+                        <img class="card-img" src="./assets/images/profile.jpg" alt="Card image cap">
+                        <div class="card-image overlay img1">
+                            <a href="index.html" class="card-link">Marisol Granados</a>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            
+                <!-- Navbar -->
+                <header id="H1-Header">
+                    <div class="row">
+                            <div class="H-Container">
+                                    <nav class="navbar navbar-expand-lg navbar-dark ">
+                                        <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+                        
+                                        <a class="navbar-brand mb-0 h1" href="index.html" id="navname">Marisol Granados</a>
+                        
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="openNav()">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                        
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                            <ul class="navbar-nav ml-auto">
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="index.html">About |<span class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="portfolio.html">Portfolio |<span
+                                                            class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="contact.html">Contact |<span class="sr-only">(current)</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                    </div>
+
+                </header>
+            
+                <!-- Main Content -->
+            
+                <!-- partices.js container -->
+                <div class="container" id="particles-js">
+                    <div class="clearfix">
+                            <img src="assets/images/profile.jpg" class="mainimg">
+                    </div>
+                        <div id="bio">
+                            <p>Raised in Chicago, graduated from IIT with a Chemical Engineering degree and pursed a business career
+                                instead with fintech startup OppLoans. Started as a loan advocate, developed a training curriculm to train and develop loan advocates. Moved to a Supervisor role and helped establish metrics to track loan advocate performance. 
+                                After two years joined business operations and automed various processes including launching an email to case management and bankruptcy check process that eliminated an 11+ step processes.
+                                Decided to join Northwestern Bootcamp to learn better ways to pull and display data. Learned HTML, CSS, Javascript, JQuery, React, SQL, Mongoose, Python and created websites that implented these technologies through MVC design and CRUD.</p>
+                       </div>
+                </div>
+            
+            
+            
+            
+                <footer class="page-footer aria-expanded font-small" id="footer">
+                    <div class="footer-copyright text-center" py-3>@2019 Copyright
+                        <div text-center>
+                            <a href="https://github.com/mgranados2018"><i class="fab fa-github" id="social"></i></a>
+                            <a href="https://www.linkedin.com/in/marisol-granados-48b019177"><i class="fab fa-linkedin"
+                                    id="social"></i></a>
+                            <a href="contact.html"><i class="fas fa-envelope-square" id="social"></i></a>
+                        </div>
+                    </div>
+                </footer>
+
     </div>
 
-    <!-- Navbar -->
-    <header id="H1-Header">
-        <div class="H-Container">
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-                <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
-
-                <a class="navbar-brand mb-0 h1" href="index.html" id="navname">Marisol Granados</a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="openNav()">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About |<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">Portfolio |<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Contact |<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-
-    <!-- particles.js container -->
-    <div id="particles-js">
-        <div class="container">
-
-                <img src="assets/images/profile.jpg" id="mainimg">
-                <div id="bio">
-                    <p>It is a long established fact that a reader will be distracted by the readable content
-                        of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                        more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                        here', making it look like readable English. Many desktop publishing packages and web
-                        page
-                        editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
-                        will uncover many web sites still in their infancy. Various versions have evolved over
-                        the
-                        years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    <p>It is a long established fact.</p>
-                </div>
-
-        </div>
-    </div>
-
-
-
-
-    <footer class="page-footer aria-expanded font-small" id="footer">
-        <div class="footer-copyright text-center" py-3>@2019 Copyright
-            <div text-center>
-                <a href="https://github.com/mgranados2018"><i class="fab fa-github" id="social"></i></a>
-                <a href="https://www.linkedin.com/in/marisol-granados-48b019177"><i class="fab fa-linkedin"
-                        id="social"></i></a>
-                <a href="contact.html"><i class="fas fa-envelope-square" id="social"></i></a>
-            </div>
-        </div>
-    </footer>
 
 
 
@@ -113,7 +112,6 @@
 
     <!-- particles -->
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
     <script src="./assets/js/index.js" type="text/javascript"></script>
 </body>
 
