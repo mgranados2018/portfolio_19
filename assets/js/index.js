@@ -16,3 +16,4 @@ anime({
   // backgroundColor: '#FFF',
   duration: 800
 });
+
