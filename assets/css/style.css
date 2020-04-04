@@ -1,133 +1,77 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
     line-height: 34px;
-    background-color:#E7E3E8;
+    background-color: clear;
 }
 
-
-
-/* navbar */
-
-.navbar{
-    width: 100%;
-    background-color: rgb(40, 43, 51);
-    position: fixed
-}
-#navname{
+ #navname{
     margin-left: 5%;
-    height: 100%;
-    text-emphasis:20px;
 }
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:rgb(40, 43, 51);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
+
+#title {
+  font-size: 65px;
+  padding:20px;
+}
+
+#t1{
+  padding:50;
+  margin-top: 10%;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#chapaimg{ 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+  height:100%;
+  width: 100%
   
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #ffffff;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-.card-img {
-  height: 90%
-}
-
-.card {
-  margin-bottom: 5%
-}
-
-
-.card-title, .card-link {
-  color: lightpink;
-  font-weight: bold;
-  margin-top: 20%
-}
-/* main content */
-
-* {
-  box-sizing: border-box;
-}
-
-.mainimg{
-  -webkit-filter: grayscale(50%);
-   /* Safari 6.0 - 9.0 */ 
-  filter: grayscale(50%);
-  position: fixed; 
-  float: left;
-  height: 150px;
-  width: 150px;
-  border-radius: 25px;
-  background-position: center;
 }
 
 #bio {
-  position: fixed; 
-    margin-bottom: 10px;
-    padding-left: 200px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#title-section {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+.progress {
+  margin: 5px
+}
+
+ 
+.card-img {
+  height: 100%;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+  padding: 10px 10px 10px 10px;
 
 }
 
-p {
-  color: black;
-  font-weight: bold;
-  font-size: 8
+.col-sm-4:hover {
+  opacity: 0.5;
 }
-
-.clearfix {
-  overflow: auto;
-}
-
-.container{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-
-
-/* Form */
 
 input[type=text],
 input[type=email],
 textarea {
-  height: 35px;
+  height: 25px;
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
 }
 
 textarea {
-  height: 200px;
+  height: 75px;
 }
 
 input[type=submit] {
@@ -140,22 +84,20 @@ input[type=submit] {
 }
 
 .btn{
-    background: #4aaaa5;
+    background:black;
     color: #ffffff;
 }
 
 /* footer */
 
 footer{
-    border-top:2px solid;
-    padding: 20px 0;
-    width: 100%;
-    background-color: rgb(40, 43, 51);
-    clear: both;
+    border-top:2px solid white;
+    padding: 15px 0;
+    max-width: 100%;
 }
 
 .footer-copyright,#social{
-    color: #ffffff;
+    color:black;
 }
 
 
